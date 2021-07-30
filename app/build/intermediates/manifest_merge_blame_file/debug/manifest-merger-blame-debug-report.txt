@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.raja.internetspeed"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:6:5-76
+12-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:8:5-75
+14-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:8:22-72
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\de2c13ed196484300b446ed312f50cec\play-services-measurement-api-19.0.0\AndroidManifest.xml:24:5-68
+15-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\de2c13ed196484300b446ed312f50cec\play-services-measurement-api-19.0.0\AndroidManifest.xml:24:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+17
+18    <application
+18-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:10:5-25:19
+19        android:allowBackup="true"
+19-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:11:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\c7ef75b126c8b6bfe64df1480ebbdd5a\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@drawable/mobile_data"
+23-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:12:9-45
+24        android:label="@string/app_name"
+24-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:13:9-41
+25        android:roundIcon="@drawable/mobile_data"
+25-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:14:9-50
+26        android:supportsRtl="true"
+26-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:15:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.InternetSpeed" >
+28-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:16:9-51
+29        <activity android:name="com.raja.internetspeed.History" />
+29-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:17:9-54
+29-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:17:19-42
+30        <activity android:name="com.raja.internetspeed.MainActivity" >
+30-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:18:9-24:20
+30-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:18:19-47
+31            <intent-filter>
+31-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:19:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:20:17-69
+32-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:20:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:22:17-77
+34-->C:\Users\Raja\Desktop\Internet Speed\app\src\main\AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->[com.google.firebase:firebase-database:20.0.1] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\d04d33aa3e9158f85616b2ce7e5e21e7\firebase-database-20.0.1\AndroidManifest.xml:29:9-35:19
+39            android:name="com.google.firebase.components.ComponentDiscoveryService"
+39-->[com.google.firebase:firebase-database:20.0.1] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\d04d33aa3e9158f85616b2ce7e5e21e7\firebase-database-20.0.1\AndroidManifest.xml:30:13-84
+40            android:directBootAware="true"
+40-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+41            android:exported="false" >
+41-->[com.google.firebase:firebase-database:20.0.1] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\d04d33aa3e9158f85616b2ce7e5e21e7\firebase-database-20.0.1\AndroidManifest.xml:31:13-37
+42            <meta-data
+42-->[com.google.firebase:firebase-database:20.0.1] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\d04d33aa3e9158f85616b2ce7e5e21e7\firebase-database-20.0.1\AndroidManifest.xml:32:13-34:85
+43                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+43-->[com.google.firebase:firebase-database:20.0.1] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\d04d33aa3e9158f85616b2ce7e5e21e7\firebase-database-20.0.1\AndroidManifest.xml:33:17-109
+44                android:value="com.google.firebase.components.ComponentRegistrar" />
+44-->[com.google.firebase:firebase-database:20.0.1] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\d04d33aa3e9158f85616b2ce7e5e21e7\firebase-database-20.0.1\AndroidManifest.xml:34:17-82
+45            <meta-data
+45-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\de2c13ed196484300b446ed312f50cec\play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+46                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+46-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\de2c13ed196484300b446ed312f50cec\play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\de2c13ed196484300b446ed312f50cec\play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a30eae67e308f2990f34fd0ceabcf627\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+49                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+49-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a30eae67e308f2990f34fd0ceabcf627\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a30eae67e308f2990f34fd0ceabcf627\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+51        </service>
+52
+53        <provider
+53-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+54            android:name="com.google.firebase.provider.FirebaseInitProvider"
+54-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+55            android:authorities="com.raja.internetspeed.firebaseinitprovider"
+55-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+56            android:directBootAware="true"
+56-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+57            android:exported="false"
+57-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+58            android:initOrder="100" />
+58-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+59
+60        <receiver
+60-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+61            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+61-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+62            android:enabled="true"
+62-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+63            android:exported="false" >
+63-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+64        </receiver>
+65
+66        <service
+66-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+67            android:name="com.google.android.gms.measurement.AppMeasurementService"
+67-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+68            android:enabled="true"
+68-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+69            android:exported="false" />
+69-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+70        <service
+70-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+71            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+71-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+72            android:enabled="true"
+72-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+74            android:permission="android.permission.BIND_JOB_SERVICE" />
+74-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\a2984f0210723d09e67626552b7d859d\play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\c059897ed48e949969f208f882057f81\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\c059897ed48e949969f208f882057f81\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Raja\.gradle\caches\transforms-2\files-2.1\c059897ed48e949969f208f882057f81\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+84    </application>
+85
+86</manifest>

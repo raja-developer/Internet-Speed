@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995699010903",
+    "project_id": "internetspeed-864c2",
+    "storage_bucket": "internetspeed-864c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995699010903:android:3eff79885e7df9c632e212",
+        "android_client_info": {
+          "package_name": "com.raja.internetspeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995699010903-ctdnic7knngtkfre5bk28vehloea4b4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt3syLiuYLXI1a4KeF9JsCrxO95mv6GXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995699010903-ctdnic7knngtkfre5bk28vehloea4b4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
